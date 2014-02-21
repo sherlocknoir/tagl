@@ -7,4 +7,4 @@ jdk:
 
 script:
         - pushd cron4j-original && ant rel && popd
-        - mvn clean verify
+        - pushd cron4j-mvn/maven-archetype-quickstart mvn clean verify popd
