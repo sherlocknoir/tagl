@@ -24,6 +24,7 @@
  --> 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<aspectj.weaveWith>true</aspectj.weaveWith>
   </properties>
 
   <dependencies>
@@ -34,18 +35,26 @@
       <scope>test</scope>
     </dependency>
 
-    <!--dependency de AspecJ-->
-	<dependency>
+<!--dependency de AspecJ-->
+<!--	<dependency>
 		<groupId>org.aspecj</groupId>
-		<artifactId>aspectjweaver</artifactId>
+		<artifactId>aspectjrt</artifactId>
 		<version>1.7.3</version>
 	</dependency>
+-->	
  <!--   <dependency>
 		<groupId>org.aspecj</groupId>
 		<artifactId>aspectjrt</artifactId>
 		<version>1.7.3</version>
 	</dependency>
 -->	
+	<dependency>
+		<groupId>org.codehaus.mojo</groupId>
+		<artifactId>aspectj-maven-plugin</artifactId>
+		<version>1.6</version>
+	</dependency>
+           	
+
   </dependencies>
 
   <build>
@@ -54,7 +63,7 @@
 	<plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
-        <version>1.5</version>
+        <version>1.6</version>
         <dependencies>
           <dependency>
             <groupId>org.aspectj</groupId>
