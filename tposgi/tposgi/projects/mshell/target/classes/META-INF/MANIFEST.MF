@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Built-By: Administrateur
+Tool: Bnd-1.15.0
+Bundle-Name: Apache Felix ShellMBean Remote UI
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_14
+Bundle-Version: 0.3.0
+Bnd-LastModified: 1300262110062
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.apache.felix.sandbox.mbean.shell.rui.Activator
+Bundle-Description: provides an remote UI (GUI, TUI) to execute comman
+ ds on a remote OSGi platform shell.
+Import-Package: javax.accessibility,javax.management,javax.management.
+ remote,javax.swing,javax.swing.border,javax.swing.text,org.osgi.frame
+ work;version="[1.3,2)";resolution:=optional
+Bundle-SymbolicName: org.apache.felix.sandbox.org.apache.felix.sandbox
+ .mbean.shell.rui
+Main-Class: org.apache.felix.sandbox.mbean.shell.rui.RemoteGUI
+

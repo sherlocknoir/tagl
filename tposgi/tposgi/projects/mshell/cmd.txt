@@ -1,0 +1,1 @@
+install file:E:/Tranfert60GB/I/osgi/felix-sandbox-donsez-2/mshell/target/org.apache.felix.sandbox.mbean.shell.rui-0.3.0.jar

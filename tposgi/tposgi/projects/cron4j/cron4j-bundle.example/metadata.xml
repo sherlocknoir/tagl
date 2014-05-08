@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iPOJO>
+	
+	<instance component="it.sauronsoftware.cron4j.bundle.example.ScheduleTask" name="HelloScheduleTask">
+			<property name="message" value="Hello from (* * * * *)"/>
+            <property name="cron4j.pattern" value="* * * * *"/>
+	</instance>
+	
+	<instance component="it.sauronsoftware.cron4j.bundle.example.ScheduleTask" name="GreetingsScheduleTask">
+			<property name="message" value="Greetings from (5 * * * *)"/>
+            <property name="cron4j.pattern" value="5 * * * *"/>
+	</instance>
+
+	<instance component="it.sauronsoftware.cron4j.bundle.example.ScheduleTask" name="PersistentHelloScheduleTask">
+			<property name="message" value="Persistent Hello from (* * * * *)"/>
+            <property name="cron4j.pattern" value="* * * * *"/>
+            <property name="service.pid" value="it.sauronsoftware.cron4j.bundle.example.PersistentHelloScheduleTask"/>
+	</instance>
+	
+</iPOJO>

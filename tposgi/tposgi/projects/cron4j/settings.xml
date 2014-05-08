@@ -1,0 +1,27 @@
+<settings xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository/>
+  <interactiveMode/>
+  <usePluginRegistry/>
+  <offline/>
+  <pluginGroups/>
+  <servers/>
+  <mirrors/>
+  
+  <proxies>
+   <!-- Proxy UJF 
+   <proxy>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>www-cache.ujf-grenoble.fr</host>
+      <port>3128</port>
+    </proxy>
+    
+    -->
+  </proxies>
+
+  <profiles/>
+  <activeProfiles/>
+</settings>

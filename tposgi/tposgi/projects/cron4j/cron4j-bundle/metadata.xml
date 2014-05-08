@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iPOJO>
+  <instance component="TransientCronDeamon" name="TransientCronDeamon"/>
+  <!-- commented since not fully tested <instance component="PersistentCronDeamon" name="PersistentCronDeamon"/>  -->
+</iPOJO>

@@ -1,0 +1,1 @@
+java -jar target\org.apache.felix.sandbox.mbean.shell.rui-0.3.0.jar %1 %2 %3 %4
