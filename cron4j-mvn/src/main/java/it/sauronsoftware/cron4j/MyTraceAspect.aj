@@ -1,4 +1,4 @@
-﻿package it.sauronsoftware.cron4j;
+package it.sauronsoftware.cron4j;
 import Task;
 import TaskExecutionContext;
 import org.slf4j.Logger;
